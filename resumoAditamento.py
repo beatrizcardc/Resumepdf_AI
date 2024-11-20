@@ -9,12 +9,12 @@ from io import BytesIO
 st.set_page_config(layout="wide", page_title="Fine-tuning - Extração de Termos de Aditamento")
 
 # Base URL para os PDFs no GitHub
-base_url = "https://raw.githubusercontent.com/beatrizcardc/MonitoramentoROD/main/termos_aditamento"
+base_url = "https://raw.githubusercontent.com/beatrizcardc/Resumepdf_AI/main/Projeto Aditamento"
 pdf_files = [
-    "termo1.pdf", 
-    "termo2.pdf", 
-    "termo3.pdf", 
-    "termo4.pdf"
+    "Aditamento1.pdf", 
+    "Aditamento2.pdf", 
+    "Aditamento3.pdf", 
+    "Aditamento4.pdf"
 ]
 
 # Função para carregar PDFs do GitHub
